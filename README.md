@@ -1,4 +1,4 @@
-<h1 align="center"><b>❤️ 𝑺𝒉𝒓𝒆𝒚𝒂 𝑮𝒉𝒐𝒔𝒉𝒂𝒍 ❤️</b></h1>
+<h1 align="center"><b>❤️ sample  ❤️</b></h1>
 
 <h4 align="center">Shreya A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
