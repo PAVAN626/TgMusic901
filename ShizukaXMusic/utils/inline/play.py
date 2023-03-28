@@ -7,25 +7,20 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
+                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
+        ],
+        [
+            InlineKeyboardButton(
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
+            ),
+            InlineKeyboardButton(
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="🌹 𝑷𝒓𝒆𝒎𝒂 𝑽𝒆𝒏𝒏𝒆𝒍𝒂 🌹", url=f"https://t.me/premavennela_143"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(text="💗𝑻𝒆𝒍𝒖𝒈𝒖 𝑭𝒓𝒊𝒆𝒏𝒅𝒔 𝑮𝒓𝒐𝒖𝒑💘", url=f"{SUPPORT_GROUP}"),
+                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+            )
         ],
     ]
     return buttons
@@ -36,23 +31,20 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
+                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
+        ],
+        [
+            InlineKeyboardButton(
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
+            ),
+            InlineKeyboardButton(
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(text="💕 𝑷𝒓𝒆𝒎𝒂 𝑽𝒆𝒏𝒏𝒆𝒍𝒂 💞", url=f"https://t.me/premavennela_143"),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-            InlineKeyboardButton(text="💞𝑻𝒆𝒍𝒖𝒈𝒖 𝑭𝒓𝒊𝒆𝒏𝒅𝒔 𝑮𝒓𝒐𝒖𝒑💞", url=f"{SUPPORT_GROUP}"),
+                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+            )
         ],
     ]
     return buttons
@@ -65,17 +57,20 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(text="🌹 𝑷𝒓𝒆𝒎𝒂 𝑽𝒆𝒏𝒏𝒆𝒍𝒂 🌹", url=f"https://t.me/premavennela_143"),
+                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
             ),
-            InlineKeyboardButton(text="💞𝑻𝒆𝒍𝒖𝒈𝒖 𝑭𝒓𝒊𝒆𝒏𝒅𝒔 𝑮𝒓𝒐𝒖𝒑💞", url=f"{SUPPORT_GROUP}"),
+            InlineKeyboardButton(
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+            )
         ],
     ]
     return buttons
