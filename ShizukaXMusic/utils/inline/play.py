@@ -7,7 +7,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
@@ -31,7 +31,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
@@ -57,7 +57,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
