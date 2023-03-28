@@ -7,19 +7,19 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
+                text="📡 𝑼𝒑𝒅𝒂𝒕𝒆𝒔", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+                text="✯ 𝑪𝒍𝒐𝒔𝒆 ✯", callback_data="close"
             )
         ],
     ]
@@ -31,19 +31,19 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
+                text="📡 𝑼𝒑𝒅𝒂𝒕𝒆𝒔", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+                text="✯ 𝑪𝒍𝒐𝒔𝒆 ✯", callback_data="close"
             )
         ],
     ]
@@ -57,19 +57,19 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/kannaxkido"), 
+                text="🥀 ❰ 𝑶𝒘𝒏𝒆𝒓シ︎𝒙𝑫 ❱ ✨", url=f"https://t.me/@shreya_ghoshal_143"), 
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
+                text="📡 𝑼𝒑𝒅𝒂𝒕𝒆𝒔", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
+                text="𝑺𝒖𝒑𝒑𝒐𝒓𝒕 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝐂𝐥𝐨𝐬𝐞 ✯", callback_data="close"
+                text="✯ 𝑪𝒍𝒐𝒔𝒆 ✯", callback_data="close"
             )
         ],
     ]
