@@ -11,10 +11,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
@@ -35,10 +35,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
@@ -61,10 +61,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/premavennela_143"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=config.SUPPORT_GROUP
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/Telugu_Friends_Chatting"
             )
         ],
         [
